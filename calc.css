@@ -1,0 +1,43 @@
+
+.cal{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    margin:1px;
+    border: 1px solid black;
+    align-items: center;
+    
+
+}
+button{
+    font-size: 20px;
+    background-color: rgb(218, 229, 230);
+
+}
+h1{
+    background-color: rgb(215, 203, 194);
+    text-align: center;
+
+}
+body{
+    background-color: dimgray;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    margin: 100px auto;
+    width: 300px;
+    text-align: center;
+    
+   
+
+}
+#input{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(220, 229, 230);
+}
